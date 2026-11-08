@@ -1,9 +1,9 @@
 import 'environment.dart';
 
-/// API configuration. The base URL is NOT hardcoded to a live server: it is
-/// supplied at build time with `--dart-define=A_MAIL_API_URL=...` or changed at
-/// runtime from Settings > Account (stored locally). `api.adverune.store` is
-/// only the proposed default hostname; it is not claimed to be live.
+/// API configuration. The default server is `https://api.adverune.store`; it can be
+/// overridden at build time with `--dart-define=A_MAIL_API_URL=...` or changed at
+/// runtime from Settings > Account > API server address (stored locally).
+/// Use "Test connection" there to confirm the server is reachable.
 class ApiConfig {
   ApiConfig._();
 

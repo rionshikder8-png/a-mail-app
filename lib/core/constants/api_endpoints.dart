@@ -3,6 +3,9 @@
 class ApiEndpoints {
   ApiEndpoints._();
 
+  // Service
+  static const health = '/health';
+
   // Auth
   static const register = '/auth/register';
   static const usernameAvailable = '/auth/username-available';

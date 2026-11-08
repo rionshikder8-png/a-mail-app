@@ -20,7 +20,7 @@ A-Mail is Adverune's independent email app: a native Flutter client for `@adveru
 Registration, login, username availability, real mail send/receive, push delivery, subscriptions/payments, 2FA enrolment, device/login history. These call the REST contract in [`docs/API_CONTRACT.md`](docs/API_CONTRACT.md) and fail with a clear message until a server is configured.
 
 ## Configure the API
-Default (proposed, not live): `https://api.adverune.store`. Override at build time:
+Default: `https://api.adverune.store` (the A-Mail backend must be deployed there). Override at build time:
 ```
 flutter run --dart-define=A_MAIL_API_URL=https://your-host
 ```
